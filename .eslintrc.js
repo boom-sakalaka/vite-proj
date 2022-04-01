@@ -1,7 +1,7 @@
 /*
  * @Date: 2022-03-31 13:51:37
- * @LastEditTime: 2022-03-31 13:54:09
- * @FilePath: \Vite-demo\vite-admin-project\.eslintrc.js
+ * @LastEditTime: 2022-04-01 17:23:46
+ * @FilePath: \vite-admin-project\.eslintrc.js
  * @Description:
  */
 module.exports = {
@@ -25,5 +25,6 @@ module.exports = {
 
     rules: {
         // override/add rules settings here, such as:
+        '@typescript-eslint/no-explicit-any': 'off',
     },
 };

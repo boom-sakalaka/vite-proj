@@ -1,7 +1,7 @@
 /*
  * @Date: 2022-03-31 10:33:00
- * @LastEditTime: 2022-04-01 16:09:59
- * @FilePath: \Vite-demo\vite-admin-project\vite.config.ts
+ * @LastEditTime: 2022-04-01 16:58:51
+ * @FilePath: \vite-admin-project\vite.config.ts
  * @Description:
  */
 import { defineConfig } from 'vite';
@@ -13,6 +13,7 @@ import {
 } from 'vite-plugin-style-import'; //  插件按需引入
 import { visualizer } from 'rollup-plugin-visualizer'; // 打包分析
 import viteCompression from 'vite-plugin-compression'; // Gzip 打包
+import { viteMockServe } from 'vite-plugin-mock'; // mock 数据
 
 // https://vitejs.dev/config/
 export default defineConfig({
@@ -40,6 +41,10 @@ export default defineConfig({
             ],
         }),
         viteCompression(),
+        viteMockServe({
+            //配置mock位置
+            mockPath: '/src/mock',
+        }),
     ],
     server: {
         port: 8080, //启动端口

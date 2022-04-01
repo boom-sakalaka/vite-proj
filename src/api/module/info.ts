@@ -1,7 +1,7 @@
 /*
- * @Date: 2022-04-01 14:18:12
- * @LastEditTime: 2022-04-01 17:28:18
- * @FilePath: \vite-admin-project\src\api\module\index.ts
+ * @Date: 2022-04-01 17:14:06
+ * @LastEditTime: 2022-04-01 17:28:56
+ * @FilePath: \vite-admin-project\src\api\module\info.ts
  * @Description:
  */
 import { request } from '@/utils/request';
