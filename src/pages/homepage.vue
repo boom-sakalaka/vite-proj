@@ -1,13 +1,12 @@
 <!--
  * @Date: 2022-03-31 14:04:56
- * @LastEditTime: 2022-04-01 14:31:43
- * @FilePath: \Vite-demo\vite-admin-project\src\pages\index.vue
+ * @LastEditTime: 2022-04-02 09:38:21
+ * @FilePath: \vite-admin-project\src\pages\homepage.vue
  * @Description: 
 -->
 <template>
-    <div>
+    <div class="w-40 h-20 bg-slate-700 text-amber-900">
         首页
-
         <el-button>按钮</el-button>
     </div>
 </template>

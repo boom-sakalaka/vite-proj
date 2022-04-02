@@ -1,12 +1,15 @@
 /*
  * @Date: 2022-03-31 13:51:37
- * @LastEditTime: 2022-04-01 17:23:46
+ * @LastEditTime: 2022-04-02 08:56:29
  * @FilePath: \vite-admin-project\.eslintrc.js
  * @Description:
  */
 module.exports = {
     parser: 'vue-eslint-parser',
-
+    globals: {
+        defineEmits: 'readonly',
+        defineProps: 'readonly',
+    },
     parserOptions: {
         parser: '@typescript-eslint/parser',
         ecmaVersion: 2020,
