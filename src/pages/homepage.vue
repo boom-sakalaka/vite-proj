@@ -1,6 +1,6 @@
 <!--
  * @Date: 2022-03-31 14:04:56
- * @LastEditTime: 2022-04-06 10:08:02
+ * @LastEditTime: 2022-04-18 09:46:43
  * @FilePath: \vite-admin-project\src\pages\homepage.vue
  * @Description: 
 -->
@@ -22,5 +22,7 @@ import { ElButton } from 'element-plus';
     left: 1px;
     width: 100px;
     height: 100px;
+    transform: rotate(30);
+    text-decoration: dashed;
 }
 </style>
