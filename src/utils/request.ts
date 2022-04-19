@@ -2,7 +2,7 @@
  * @Author: GZH
  * @Date: 2021-12-29 13:53:43
  * @LastEditors: Please set LastEditors
- * @LastEditTime: 2022-04-01 17:21:05
+ * @LastEditTime: 2022-04-19 09:48:23
  * @FilePath: \vite-admin-project\src\utils\request.ts
  * @Description: 封装登录请求 https://github.dev/buqiyuan/vue3-antd-admin
  */
@@ -25,9 +25,9 @@ export interface RequestOptions {
 const UNKNOWN_ERROR = '未知错误，请重试';
 
 /* 真实请求路径前缀 */
-const baseUrl = process.env.VUE_APP_BASE_API as string;
+const baseUrl = import.meta.env.VITE__APP_BASE_API as string;
 /* mock请求路径前缀 */
-const mockUrl = process.env.VUE_APP_MOCK_API as string;
+const mockUrl = import.meta.env.VITE__APP_MOCK_API as string;
 
 const service = axios.create({
     // baseURL:

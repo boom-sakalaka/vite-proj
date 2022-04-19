@@ -1,11 +1,14 @@
 <!--
  * @Date: 2022-03-31 14:05:23
- * @LastEditTime: 2022-04-02 09:31:05
+ * @LastEditTime: 2022-04-19 09:18:07
  * @FilePath: \vite-admin-project\src\pages\login.vue
  * @Description: 
 -->
 <template>
-    <div>登录页 <el-button type="primary">按钮</el-button></div>
+    <div>
+        登录页 <el-button type="primary">按钮</el-button>
+        <img src="../assets/logo.png" />
+    </div>
 </template>
 
 <script setup lang="ts">
